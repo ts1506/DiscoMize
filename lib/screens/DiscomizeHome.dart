@@ -219,7 +219,6 @@ class RecentsPage extends StatelessWidget {
                       child: Image.network(snapshot.data![index]["track"]
                           ["album"]["images"][0]["url"]),
                     ),
-                    //Center(child: Text(snapshot.data![index]["name"])),
                     AlignPositioned(
                       alignment: Alignment(-0.8, -0.9),
                       childWidthRatio: 0.7,
