@@ -43,7 +43,7 @@ Creating Spotify App
 Local Environment and Build
 - Set Up a local flutter environment, along with XCode.
 - Clone the repository to your local system
-- Add your Client ID and Redirect URI to `AuthFlow.dart`
+- Remove private import and add your Client ID and Redirect URI to `ApiKeys.dart`
 - Select your emulator - Preferably iPhone 12 Pro Max
 - Run the app in emulator with `flutter run`
 - Build the app for deployment with `flutter build ipa`, and deploy with XCode.
