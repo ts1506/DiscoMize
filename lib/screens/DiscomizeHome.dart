@@ -89,10 +89,6 @@ class TopArtistsPage extends StatelessWidget {
                           snapshot.data![index]["images"][0]["url"]),
                     ),
                     AlignPositioned(
-                      /*top: 15,
-                      left: 15,
-                      right: 20,
-                      bottom: 175,*/
                       alignment: Alignment(-0.8, -0.9),
                       childWidthRatio: 0.7,
                       child: Text(
@@ -105,10 +101,6 @@ class TopArtistsPage extends StatelessWidget {
                       ),
                     ),
                     AlignPositioned(
-                      /*top: 155,
-                      left: 155,
-                      right: 15,
-                      bottom: 15,*/
                       alignment: Alignment(0.85, 0.85),
                       childHeightRatio: 0.25,
                       childWidthRatio: 0.25,
@@ -117,7 +109,6 @@ class TopArtistsPage extends StatelessWidget {
                         onPressed: () {
                           Url.launchUniversal(snapshot.data![index]
                               ["external_urls"]["spotify"]);
-                          //Url.launchUniversal(snapshot.data![index]["uri"]);
                         },
                         style: ElevatedButton.styleFrom(
                             primary: Colors.orange, shape: CircleBorder()),
@@ -164,10 +155,6 @@ class TopTracksPage extends StatelessWidget {
                           snapshot.data![index]["album"]["images"][0]["url"]),
                     ),
                     AlignPositioned(
-                      /*top: 15,
-                      left: 15,
-                      right: 20,
-                      bottom: 175,*/
                       alignment: Alignment(-0.8, -0.9),
                       childWidthRatio: 0.7,
                       child: Text(
@@ -180,17 +167,12 @@ class TopTracksPage extends StatelessWidget {
                       ),
                     ),
                     AlignPositioned(
-                      /*top: 155,
-                      left: 155,
-                      right: 15,
-                      bottom: 15,*/
                       alignment: Alignment(0.85, 0.85),
                       childHeightRatio: 0.25,
                       childWidthRatio: 0.25,
                       child: ElevatedButton(
                         child: Icon(CupertinoIcons.play),
                         onPressed: () {
-                          //Url.launchUrl(snapshot.data![index]["uri"]);
                           Url.launchUniversal(snapshot.data![index]
                               ["external_urls"]["spotify"]);
                         },
@@ -239,10 +221,6 @@ class RecentsPage extends StatelessWidget {
                     ),
                     //Center(child: Text(snapshot.data![index]["name"])),
                     AlignPositioned(
-                      /*top: 15,
-                      left: 15,
-                      right: 20,
-                      bottom: 175,*/
                       alignment: Alignment(-0.8, -0.9),
                       childWidthRatio: 0.7,
                       child: Text(
@@ -255,10 +233,6 @@ class RecentsPage extends StatelessWidget {
                       ),
                     ),
                     AlignPositioned(
-                      /*top: 155,
-                      left: 155,
-                      right: 15,
-                      bottom: 15,*/
                       alignment: Alignment(0.85, 0.85),
                       childHeightRatio: 0.25,
                       childWidthRatio: 0.25,
