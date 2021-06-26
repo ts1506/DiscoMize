@@ -1,6 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:discomize/screens/AuthFlow.dart' as AuthFlow;
+import 'package:discomize/auth/AuthFlow.dart' as AuthFlow;
 import 'package:discomize/screens/AboutPage.dart';
 import 'package:flutter/services.dart';
 import 'package:align_positioned/align_positioned.dart';

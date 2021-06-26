@@ -3,7 +3,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/services.dart';
 import 'dart:async';
 import 'package:flutter_web_auth/flutter_web_auth.dart';
-import 'package:discomize/screens/ApiKeys.dart' as ApiKey;
+import 'package:discomize/keys/ApiKeys.dart' as ApiKey;
 
 String _token = "";
 String get token => _token;

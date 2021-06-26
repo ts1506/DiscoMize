@@ -1,5 +1,5 @@
 import 'dart:async';
-import 'package:discomize/screens/AuthFlow.dart' as AuthFlow;
+import 'package:discomize/auth/AuthFlow.dart' as AuthFlow;
 import 'package:http/http.dart' as http;
 import 'dart:convert';
 

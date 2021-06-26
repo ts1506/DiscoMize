@@ -1,7 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:discomize/screens/FetchData.dart' as FetchData;
-import 'package:discomize/screens/LaunchURL.dart' as Url;
+import 'package:discomize/dataHandler/FetchData.dart' as FetchData;
+import 'package:discomize/helpers/LaunchURL.dart' as Url;
 import 'package:flutter/services.dart';
 import 'package:discomize/screens/AboutPage.dart';
 import 'package:align_positioned/align_positioned.dart';
