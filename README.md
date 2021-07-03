@@ -38,7 +38,7 @@ DiscoMize is developed using Flutter. The primary UI has been created using Cupe
 Creating Spotify App
 - Go to [Spotify Developer Dashboard](https://developer.spotify.com/dashboard) and create a new App.
 - Add your preferred redirect URI (typically appname:/) in your Spotify App Settings.
-- Grab the Client ID from Spotify App Settings - this will be added to AuthFlow.dart.
+- Grab the Client ID from Spotify App Settings - this will be added to ApiKeys.dart.
 
 Local Environment and Build
 - Set Up a local flutter environment, along with XCode.
